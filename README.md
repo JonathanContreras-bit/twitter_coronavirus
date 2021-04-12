@@ -161,3 +161,14 @@ That's because you can get slightly different numbers depending on some of the d
 For example, should the term `corona` count tweets that contain `coronavirus` as well as tweets that contain just `corona`?
 These are relatively insignificant decisions.
 I'm more concerned with your ability to write a shell script and use `nohup`, `&`, and other process control tools effectively.
+
+<!--
+For this assignment, I adjusted the src/map.py program-file to count the instances of each hashtag (listed in file) by country in addition to the existing feature of counting the instances of each hashtag by language of all tweets posted in the year 2020.
+
+In my 'outputs' directory there are 732 files, each pertaining to either the language (.lang) or country (.country) breakdown of hashtag counts for each day of the year (2020 was a leap year, so 366 days * 2 files per day = 732 files).
+
+My 'reduced.lang' and 'reduced.country' files contain the total breakdown of hashtag usage by language of tweet or country tweet was posted in, respectively, for all of 2020.
+
+My 'viz.lang' and 'viz.country' directories contain files that display the total counts of each hashtag of interest broken down by language and country posted in, respectively, for the year 2020.
+--> 
+
